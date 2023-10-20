@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#page1 {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+#page2 {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+nav {
+  height: 80px;
+  width: 90%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 4px 10px;
+  border-bottom: 2px solid gainsboro;
+  text-transform: uppercase;
+}
+span {
+  font-size: 2rem;
+  color: aqua;
+}
+#navPart-2 {
+  display: flex;
+  gap: 1.9rem;
+}
+#navPart-2 p {
+  color: rgb(193, 198, 202);
+}
+
+#navPart-3 {
+  display: flex;
+  gap: 1.3rem;
+}
+#navPart-3 p {
+  color: rgb(193, 198, 202);
+}
+#container {
+  height: 80%;
+  width: 90%;
+  /* background: red; */
+  margin: 2rem auto;
+  display: flex;
+}
+#left {
+  border-bottom: 2px solid rgb(193, 198, 202);
+  border-radius: 2%;
+  height: 85%;
+  width: 50%;
+  margin-top: 3rem;
+}
+#left h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  text-align: left;
+  /* margin-top: 4rem; */
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  align-items: center;
+}
+#left h1 span img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: -30px;
+  border: 4px solid black;
+}
+#left h1 span img:nth-child(1){
+    margin-left: 0;
+}
+#right {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+#right img {
+  height: 90%;
+  width: 90%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  border-radius: 8%;
+}
+#box-container {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 1.9rem;
+
+  justify-content: center;
+}
+
+.box {
+  border-radius: 10%;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  align-items: center;
+  color: black;
+}
+.box h3 {
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 6%;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+  background-image: url('https://i.pinimg.com/564x/4e/a6/69/4ea66949dc5a06be86252908535840e1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+#box1 {
+  background-color: #fd5e09;
+}
+#box2 {
+  background-color: #e0e0e0;
+}
+#box3 {
+  background-color: #fdc959;
+}
